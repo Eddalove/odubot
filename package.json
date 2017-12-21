@@ -4,5 +4,10 @@
   "description": "A replica of Odunita",
   "main": "bot.js",
   "author": "Odunita or Holographic Hatter",
-  "dependencies": {}
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+  }
 }
