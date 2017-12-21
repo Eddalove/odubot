@@ -1,0 +1,8 @@
+{
+  "name": "Odubot",
+  "version": "1.0.0",
+  "description": "A replica of Odunita",
+  "main": "bot.js",
+  "author": "Odunita or Holographic Hatter",
+  "dependencies": {}
+}
