@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const Client = new Discord.client();
+const Client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('Odunita at your service.');
