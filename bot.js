@@ -5,13 +5,13 @@ const prefix = "\";
 
 
 
-bot.on("ready", async () => {
+bot.on("ready", () => {
 console.log(`Odunita at your service`);
 });
 //ready event
 
 
-bot.on("message", async message => {
+bot.on("message", message => {
 if(message.author.bot) return;
 //ignores all messages from other bots
 if(message.channel.type === "dm") return;
