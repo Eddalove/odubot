@@ -5,13 +5,13 @@ const prefix = "\";
 
 
 
-bot.on('ready', () => {
+client.on('ready', () => {
 console.log(`Odunita at your service`);
 });
 //ready event
 
 
-bot.on("message", message => {
+client.on("message", message => {
 if(message.author.bot) return;
 //ignores all messages from other bots
 if(message.channel.type === "dm") return;
@@ -20,4 +20,4 @@ if(message.content === prefix + "ping") {
 message.channel.send("pong!");
 });
 
-bot.login(token);
+client.login(token);
