@@ -5,7 +5,7 @@ const prefix = "\";
 
 
 
-bot.on("ready", () => {
+bot.on('ready', () => {
 console.log(`Odunita at your service`);
 });
 //ready event
