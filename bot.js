@@ -1,13 +1,14 @@
 const Discord = require('discord.js');
-const Client = new Discord.Client();
+const client = new Discord.Client();
 
-client.on('ready', () => {
+client.on("ready", () => {
     console.log('Odunita at your service.');
 });
 
-client.on('message', message => {
-    if (message.content === '\ping') {
-        message.reply('Pong?');
+const p = "\";
+client.on('message', msg => {
+    if(msg.content === (p + "ping")) {
+        msg.channel.sendMessage("Pong?");
     }
 });
 
